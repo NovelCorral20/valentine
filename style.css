@@ -1,0 +1,136 @@
+/* LOVE */
+#love{
+    background-color: black;
+}
+h1{
+    background: linear-gradient(to right,crimson,red);
+    border: solid;
+    border-color: pink;
+    text-align: center;
+}
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+  }
+  
+  .button1 {
+    background-color:black; 
+    color: white; 
+    border: 2px solid blue;
+    animation: button1;
+    animation-duration: 3s;
+  }
+  @keyframes button1{
+    from{margin-right: 100%;}
+    to{margin-right:0% ;}
+  }
+  .button1:hover {
+    background-color:blue;
+    color: white;
+    
+  }
+  
+  .button2 {
+    background-color: black; 
+    color: white; 
+    border: 2px solid red;
+    animation: button2;
+    animation-duration: 3s;
+  }
+  @keyframes button2{
+    from{margin-left: 100%;}
+    to{margin-left:0% ;}
+  }
+  
+  .button2:hover {
+    background-color: red;
+    color: white;
+   
+  }
+  .love
+  {
+    text-align: center;
+    color: wheat;
+  }
+  .b1
+  {
+text-align: center;
+  }
+  .audio{
+    text-align: center;
+    animation: music;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+  }
+  @keyframes music{
+    from{margin-top: 100%;}
+    to{margin-top:0% ;}
+  }
+  .vid{
+    text-align: center;
+  }
+  .top{
+    text-align: center;
+    border: solid;
+    
+    animation: top;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+  }
+  @keyframes top{
+    from{margin-right:100%;}
+    to{margin-right:0% ;}
+  }
+  .qa{
+    border: none;
+    padding: 15px;
+    background:linear-gradient(to bottom,#ff00a2,#ff87d3);
+    animation: qa;
+    animation-duration:5s;
+  }
+  @keyframes qa{
+    from{margin-top: 100%;}
+    to{margin-top:0% ;}
+  }
+  #if{
+    color: crimson;
+    animation: slide;
+    animation-duration: 4s;
+  }
+  @keyframes slide{
+    from{margin-left: 100%;}
+    to{margin-left:0% ;}
+  }
+  .sad{
+    text-align: center;
+    border: solid;
+    background-color: white;
+  }
+  #sad{
+    background: linear-gradient(to top,black,gray );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .go{
+   text-align: center;
+   margin-top: 30px;
+   border: none;
+   cursor: pointer;
+  }
+  #go{
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    border-radius: 30px;
+  }
